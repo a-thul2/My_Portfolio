@@ -75,7 +75,7 @@ const Navbar = () => {
 
           {/* Glowing Download CV Button */}
           <a
-            href="public/Athul_Menon_Resume.pdf"   // <-- Replace this with your real CV file name
+            href="/Athul_Menon_Resume.pdf"   // <-- Replace this with your real CV file name
             download
             className="px-4 py-2 rounded-lg border border-[#4ef0d8] text-[#4ef0d8] 
                        transition-all duration-300 font-medium
