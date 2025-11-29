@@ -19,7 +19,7 @@ const AboutSection = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-[#4ef0d8]/20 rounded-full blur-xl" />
             <img
-              src="public/About.png"
+              src="/About.png"
               alt="Athul Menon P"
               className="relative w-48 h-48 rounded-full border-4 border-[#4ef0d8] neon-glow object-cover"
             />

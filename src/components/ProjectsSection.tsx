@@ -7,7 +7,7 @@ const ProjectsSection = () => {
       title: 'Career_Conversation - An Interactive AI Resume',
       description:
         'Career_Conversation is an AI-powered conversational agent that acts as my interactive resume, allowing users to ask questions about my career, skills, and projects in real time. Instead of a static resume, this project provides a dynamic, always-on experience powered by Gemini LLM (via OpenAI-compatible endpoints) and deployed using Gradio on Hugging Face Spaces.',
-      image: 'public/AI_Resume.jpg',
+      image: '/AI_Resume.jpg',
       tags: ['Python', 'Gradio', 'Gemini LLM', 'Hugging Face Spaces', 'Pushover API'],
       link: 'https://huggingface.co/spaces/athul8/career_conversation', // used for "Try this project"
     },
@@ -15,7 +15,7 @@ const ProjectsSection = () => {
       title: 'Prism - Chat App',
       description:
         'A modern real-time chat application built using the MERN stack, featuring live messaging, authentication, and a clean UI. Key features include real-time messaging, online user presence, reliable error handling, and efficient media storage.',
-      image: 'public/chat_app.jpg',
+      image: '/chat_app.jpg',
       tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Socket.io', 'Zustand', 'Tailwind CSS', 'DaisyUI', 'JWT'],
       link: 'https://github.com/a-thul2/Prism_Chat-App_MERN',
     },
@@ -23,7 +23,7 @@ const ProjectsSection = () => {
       title: 'Quality Cafe - Restaurant Website',
       description:
         'A Full-Stack Restaurant Website built using MERN Stack. It includes a hero landing section, a detailed menu showcase, and a dedicated team and about page. Users can make online table reservations. The interface is modern, mobile-friendly, and fully responsive, with smooth scrolling for seamless navigation.',
-      image: 'public/cafe.jpg',
+      image: '/cafe.jpg',
       tags: ['React.js', 'Express', 'MongoDB', 'Axios'],
       link: 'https://github.com/a-thul2/Restaurant_Webpage',
     },

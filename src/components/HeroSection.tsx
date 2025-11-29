@@ -41,7 +41,7 @@ const HeroSection = () => {
           <div className="absolute w-80 h-80 bg-[#4ef0d8]/10 rounded-full blur-3xl" />
           <div className="relative w-full max-w-md aspect-square">
             <img
-              src="public/My_photo.jpeg"
+              src="/My_photo.jpeg"
               alt="Athul Menon P"
               className="w-full h-full object-contain rounded-full neon-glow border-4 border-[#4ef0d8]/20"
             />
