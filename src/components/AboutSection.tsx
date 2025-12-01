@@ -29,7 +29,7 @@ const AboutSection = () => {
           <div className="text-center space-y-4">
             {/*<h3 className="text-3xl font-bold">Athul Menon P</h3> */}
             <p className="text-[#94a3b8] text-lg leading-relaxed max-w-2xl">
-              I'm a passionate Software Developer and AI Engineer with experience in building scalable full-stack applications and AI-driven systems. I am skilled in Python, Machine Learning, Deep Learning, and Agentic AI frameworks. I specialize in modernizing legacy enterprise systems and delivering solutions aligned with business goals. I love turning complex problems into elegant solutions, and when I am not coding, I am usually exploring new technologies and sharpening my craft.
+              I'm a passionate Software Developer and AI Engineer with experience in building scalable full-stack applications and AI-driven systems. I am skilled in Python, MERN Stack, Machine Learning, Deep Learning, and Agentic AI frameworks. I specialize in modernizing legacy enterprise systems and delivering solutions aligned with business goals. I love turning complex problems into elegant solutions, and when I am not coding, I am usually exploring new technologies and sharpening my craft.
             </p>
           </div>
 

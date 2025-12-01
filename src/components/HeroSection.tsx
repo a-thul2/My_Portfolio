@@ -25,7 +25,7 @@ const HeroSection = () => {
             Athul Menon P
           </h1>
           <p className="text-[#94a3b8] text-lg leading-relaxed max-w-xl">Software Developer and AI Engineer with hands-on experience in building scalable full-stack applications and AI-driven
- systems using modern frameworks and cloud platforms. Strong expertise in Python, Deep Learning, and Agentic AI
+ systems using modern frameworks and cloud platforms. Strong expertise in Python, MERN Stack, Deep Learning, and Agentic AI
  (OpenAI Agents SDK, Crew AI, LangGraph, MCP). Working on modernizing legacy enterprise systems. Adept
  at collaborating with cross-functional teams to deliver high-impact solutions aligned with business goals.</p>
           <Button
