@@ -10,11 +10,10 @@ const ExperienceSection = () => {
       description: `
         <ul class="list-disc pl-5 space-y-2">
           <li>Specializing in modernizing enterprise applications and migrating legacy systems to the cloud.</li>
-          <li>Currently working on the modernization of legacy AS400 system programs.</li>
-          <li>Improved workflow clarity and maintainability by streamlining documentation and migration processes.</li>
-          <li>Achieved a 20% increase in efficiency and faster workflows through process optimization.</li>
+          <li>Working on the modernization of legacy AS400 system programs.</li>
+          <li>Improving workflow clarity and maintainability by streamlining documentation and migration processes.</li>
           <li>Collaborating with cross-functional teams to analyze system behavior and integration points.</li>
-          <li>Delivering robust solutions aligned with software development principles under tight deadlines.</li>
+          <li>Achieved a 40% increase in efficiency and faster workflows through process optimization.</li>
         </ul>
       `
     },
