@@ -7,8 +7,16 @@ const ExperienceSection = () => {
       role: 'Software Developer - 1',
       company: 'UST',
       duration: 'December 2024 — Present',
-      description:
-        'A Software Developer specializing in modernizing enterprise applications and migrating legacy systems to the cloud. I am currently working on the modernization of legacy AS400 system programs. Improved workflow clarity and maintainability by streamlining the documentation and migration process, achieving a 20% increase in efficiency and faster workflows. Collaborating with cross-functional teams to ensure a complete understanding of system behavior and integration points. I bring a strong foundation in software development principles and a proven ability to deliver robust solutions under tight deadlines.'
+      description: `
+        <ul class="list-disc pl-5 space-y-2">
+          <li>Specializing in modernizing enterprise applications and migrating legacy systems to the cloud.</li>
+          <li>Currently working on the modernization of legacy AS400 system programs.</li>
+          <li>Improved workflow clarity and maintainability by streamlining documentation and migration processes.</li>
+          <li>Achieved a 20% increase in efficiency and faster workflows through process optimization.</li>
+          <li>Collaborating with cross-functional teams to analyze system behavior and integration points.</li>
+          <li>Delivering robust solutions aligned with software development principles under tight deadlines.</li>
+        </ul>
+      `
     },
   ];
 
