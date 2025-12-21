@@ -49,10 +49,13 @@ const ExperienceSection = () => {
                     </div>
 
                   
-                    <p className={`text-[#ebedf0] leading-relaxed text-base md:block
-                    ${expanded ? 'block' : 'line-clamp-3 md:line-clamp-none'}`}>
-                    {exp.description}
-                    </p>
+<div className={`text-[#ebedf0] leading-relaxed text-base ${expanded ? 'block' : 'line-clamp-3 md:line-clamp-none'}`}>
+  <ul className="list-disc pl-5 space-y-2">
+    {exp.description.map((point, i) => (
+      <li key={i} className="text-[#94a3b8]">{point}</li>
+    ))}
+  </ul>
+</div>
                     {/* Button only visible on small screens */}
                     <button
                       onClick={() => setExpanded(!expanded)}
