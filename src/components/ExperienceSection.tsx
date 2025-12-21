@@ -3,21 +3,19 @@ import { useState } from 'react';
 
 const ExperienceSection = () => {
   const experiences = [
-    {
-      role: 'Software Developer - 1',
-      company: 'UST',
-      duration: 'December 2024 — Present',
-      description: `
-        <ul class="list-disc pl-5 space-y-2">
-          <li>Specializing in modernizing enterprise applications and migrating legacy systems to the cloud.</li>
-          <li>Working on the modernization of legacy AS400 system programs.</li>
-          <li>Improving workflow clarity and maintainability by streamlining documentation and migration processes.</li>
-          <li>Collaborating with cross-functional teams to analyze system behavior and integration points.</li>
-          <li>Achieved a 40% increase in efficiency and faster workflows through process optimization.</li>
-        </ul>
-      `
-    },
-  ];
+  {
+    role: 'Software Developer - 1',
+    company: 'UST',
+    duration: 'December 2024 — Present',
+    description: [
+      'Specializing in modernizing enterprise applications and migrating legacy systems to the cloud.',
+      'Working on the modernization of legacy AS400 system programs.',
+      'Improving workflow clarity and maintainability by streamlining documentation and migration processes.',
+      'Collaborating with cross-functional teams to analyze system behavior and integration points.',
+      'Achieved a 40% increase in efficiency and faster workflows through process optimization.'
+    ]
+  },
+];
 
   return (
     <section id="experience" className="py-24 px-6 bg-[#0d1224]">
@@ -50,15 +48,11 @@ const ExperienceSection = () => {
                       <p className="text-sm text-[#4ef0d8]/80 font-medium mt-2">{exp.duration}</p>
                     </div>
 
-                    {/* Description with read more */}
-                    <p
-                      className={`text-[#ebedf0] leading-relaxed text-base md:block
-                      ${expanded ? 'block' : 'line-clamp-3 md:line-clamp-none'}
-                    `}
-                    >
-                      {exp.description}
+                  
+                    <p className={`text-[#ebedf0] leading-relaxed text-base md:block
+                    ${expanded ? 'block' : 'line-clamp-3 md:line-clamp-none'}`}>
+                    {exp.description}
                     </p>
-
                     {/* Button only visible on small screens */}
                     <button
                       onClick={() => setExpanded(!expanded)}
