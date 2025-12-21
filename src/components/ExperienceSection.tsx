@@ -45,7 +45,7 @@ const ExperienceSection = () => {
 
                     {/* Description with read more */}
                     <p
-                      className={`text-[#ebedf0] leading-relaxed text-base  text-white md:block
+                      className={`text-[#ebedf0] text-white leading-relaxed text-base md:block
                       ${expanded ? 'block' : 'line-clamp-3 md:line-clamp-none'}
                     `}
                     >
