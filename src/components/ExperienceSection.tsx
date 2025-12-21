@@ -3,19 +3,14 @@ import { useState } from 'react';
 
 const ExperienceSection = () => {
   const experiences = [
-  {
-    role: 'Software Developer - 1',
-    company: 'UST',
-    duration: 'December 2024 — Present',
-    description: [
-      'Specializing in modernizing enterprise applications and migrating legacy systems to the cloud.',
-      'Working on the modernization of legacy AS400 system programs.',
-      'Improving workflow clarity and maintainability by streamlining documentation and migration processes.',
-      'Collaborating with cross-functional teams to analyze system behavior and integration points.',
-      'Achieved a 40% increase in efficiency and faster workflows through process optimization.'
-    ]
-  },
-];
+    {
+      role: 'Software Developer - 1',
+      company: 'UST',
+      duration: 'December 2024 — Present',
+      description:
+        'A Software Developer specializing in modernizing enterprise applications and migrating legacy systems to the cloud. I am currently working on the modernization of legacy AS400 system programs. Improved workflow clarity and maintainability by streamlining the documentation and migration process, achieving a 20% increase in efficiency and faster workflows. Collaborating with cross-functional teams to ensure a complete understanding of system behavior and integration points. I bring a strong foundation in software development principles and a proven ability to deliver robust solutions under tight deadlines.'
+    },
+  ];
 
   return (
     <section id="experience" className="py-24 px-6 bg-[#0d1224]">
@@ -48,14 +43,15 @@ const ExperienceSection = () => {
                       <p className="text-sm text-[#4ef0d8]/80 font-medium mt-2">{exp.duration}</p>
                     </div>
 
-                  
-<div className={`text-[#ebedf0] leading-relaxed text-base ${expanded ? 'block' : 'line-clamp-3 md:line-clamp-none'}`}>
-  <ul className="list-disc pl-5 space-y-2">
-    {exp.description.map((point, i) => (
-      <li key={i} className="text-[#94a3b8]">{point}</li>
-    ))}
-  </ul>
-</div>
+                    {/* Description with read more */}
+                    <p
+                      className={`text-[#ebedf0] leading-relaxed text-base md:block
+                      ${expanded ? 'block' : 'line-clamp-3 md:line-clamp-none'}
+                    `}
+                    >
+                      {exp.description}
+                    </p>
+
                     {/* Button only visible on small screens */}
                     <button
                       onClick={() => setExpanded(!expanded)}
