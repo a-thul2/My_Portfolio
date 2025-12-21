@@ -24,10 +24,7 @@ const HeroSection = () => {
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
             Athul Menon P
           </h1>
-          <p className="text-[#94a3b8] text-lg leading-relaxed max-w-xl">Software Developer and AI Engineer with hands-on experience in building scalable full-stack applications and AI-driven
- systems using modern frameworks and cloud platforms. Strong expertise in Python, MERN Stack, Deep Learning, and Agentic AI
- (OpenAI Agents SDK, Crew AI, LangGraph, MCP). Working on modernizing legacy enterprise systems. Adept
- at collaborating with cross-functional teams to deliver high-impact solutions aligned with business goals.</p>
+          <p className="text-[#94a3b8] text-lg leading-relaxed max-w-xl">Software Developer and AI Engineer specializing in the architecture of scalable full-stack applications and autonomous AI systems. I leverage Python, the MERN stack, and advanced Agentic AI frameworks—including OpenAI SDK, CrewAI, and LangGraph—to modernize legacy enterprise infrastructure. I am dedicated to delivering high-impact, business-aligned solutions through seamless collaboration with cross-functional teams.</p>
           <Button
             onClick={scrollToContact}
             className="bg-[#4ef0d8] text-[#0d1224] hover:bg-[#3dd4bf] font-semibold px-8 py-6 text-base neon-glow-strong transition-all duration-300 hover:scale-105"
