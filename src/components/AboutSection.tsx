@@ -29,7 +29,7 @@ const AboutSection = () => {
           <div className="text-center space-y-4">
             {/*<h3 className="text-3xl font-bold">Athul Menon P</h3> */}
             <p className="text-[#94a3b8] text-lg leading-relaxed max-w-2xl">
-              I’m a software developer and AI engineer who enjoys the challenge of building scalable apps and smart, agentic systems. Whether I’m diving into the MERN stack or modernizing legacy enterprise tools with Python, my goal is always the same: turning messy, complex problems into something clean and elegant. When I’m not building or exploring new tech, I’m usually focused on sharpening my craft and finding better ways to bridge the gap between AI and real-world business needs.
+              I’m a Software Developer who enjoys the challenge of building scalable apps and smart, agentic systems. Whether I’m diving into the MERN stack or modernizing legacy enterprise tools with Python, my goal is always the same: turning messy, complex problems into something clean and elegant. When I’m not building or exploring new tech, I’m usually focused on sharpening my craft and finding better ways to bridge the gap between AI and real-world business needs.
             </p>
           </div>
 
