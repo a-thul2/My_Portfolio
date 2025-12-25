@@ -48,10 +48,12 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0d1224]/95 backdrop-blur-sm border-b border-[#1a2332]">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
-        {/* Logo */}
-        <div className="text-xl font-bold text-[#4ef0d8] neon-text">
-          Athul Menon P
-        </div>
+        {/* Logo - Links to home page */}
+        <a href="/" className="no-underline">
+          <div className="text-xl font-bold text-[#4ef0d8] neon-text hover:opacity-80 transition-opacity">
+            Athul Menon P
+          </div>
+        </a>
 
         {/* Nav Links + Download CV Button */}
         <div className="hidden md:flex items-center gap-8">
