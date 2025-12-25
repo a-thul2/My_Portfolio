@@ -24,7 +24,7 @@ const HeroSection = () => {
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
             Athul Menon P
           </h1>
-          <p className="text-[#94a3b8] text-lg text-justify leading-relaxed max-w-xl">Software Developer and AI Engineer specializing in the architecture of scalable full-stack applications and autonomous AI systems. I leverage Python, the MERN stack, and advanced Agentic AI frameworks including OpenAI SDK, CrewAI, and LangGraph. I am dedicated to delivering high-impact, business-aligned solutions through seamless collaboration with cross-functional teams.</p>
+          <p className="text-[#94a3b8] text-lg text-justify leading-relaxed max-w-xl">I'm a Software Developer and AI Engineer who builds scalable web apps and smart AI systems. I work with Python, MERN stack, and modern Agentic AI tools like OpenAI SDK, CrewAI, and LangGraph. I enjoy creating practical, high-impact solutions and love working with teams to turn ideas into real products.</p>
           <Button
             onClick={scrollToContact}
             className="bg-[#4ef0d8] text-[#0d1224] hover:bg-[#3dd4bf] font-semibold px-8 py-6 text-base neon-glow-strong transition-all duration-300 hover:scale-105"
