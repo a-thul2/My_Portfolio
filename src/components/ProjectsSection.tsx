@@ -3,39 +3,40 @@ import { Button } from '@/components/ui/button';
 
 const ProjectsSection = () => {
   const projects = [
-    {
-      title: 'Career_Conversation - An Interactive AI Resume',
-      description:
-        'Career_Conversation is an AI-powered conversational agent that acts as my interactive resume, allowing users to ask questions about my career, skills, and projects in real time. Instead of a static resume, this project provides a dynamic, always-on experience powered by Gemini LLM (via OpenAI-compatible endpoints) and deployed using Gradio on Hugging Face Spaces.',
-      image: '/AI_Resume.jpg',
-      tags: ['Python', 'Gradio', 'Gemini LLM', 'Hugging Face Spaces', 'Pushover API'],
-      link: 'https://huggingface.co/spaces/athul8/career_conversation', // used for "Try this project"
-    },
-    {
-      title: 'Prism - Chat App',
-      description:
-        'A modern real-time chat application built using the MERN stack, featuring live messaging, authentication, and a clean UI. Key features include real-time messaging, online user presence, reliable error handling, and efficient media storage.',
-      image: '/chat_app.jpg',
-      tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Socket.io', 'Zustand', 'Tailwind CSS', 'DaisyUI', 'JWT'],
-      link: 'https://github.com/a-thul2/Prism_Chat-App_MERN',
-    },
-    {
-      title: 'Quality Cafe - Restaurant Website',
-      description:
-        'A Full-Stack Restaurant Website built using MERN Stack. It includes a hero landing section, a detailed menu showcase, and a dedicated team and about page. Users can make online table reservations. The interface is modern, mobile-friendly, and fully responsive, with smooth scrolling for seamless navigation.',
-      image: '/cafe.jpg',
-      tags: ['React.js', 'Express', 'MongoDB', 'Axios'],
-      link: 'https://github.com/a-thul2/Restaurant_Webpage',
-    },
-    {
-      title: 'Weather App',
-      description:
-        'This is a simple and responsive weather application built using React.js. Users can enter any city name to retrieve real-time weather information from a public weather API. It features a clean, mobile-friendly interface for a smooth user experience.',
-      image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?w=600&q=80',
-      tags: ['React.js', 'Fetch API / Axios','OpenWeatherMap API'],
-      link: 'https://github.com/a-thul2/Weather-App-React-Project',
-    },
-  ];
+  {
+    title: 'Career_Conversation - An Interactive AI Resume',
+    description:
+      'Career_Conversation is an AI-powered conversational agent that acts as my interactive resume, allowing users to ask questions about my career, skills, and projects in real time. Instead of a static resume, this project provides a dynamic, always-on experience powered by Gemini LLM (via OpenAI-compatible endpoints) and deployed using Gradio on Hugging Face Spaces.',
+    image: '/AI_Resume.jpg',
+    tags: ['Python', 'Gradio', 'Gemini LLM', 'Hugging Face Spaces', 'Pushover API'],
+    link: 'https://huggingface.co/spaces/athul8/career_conversation',
+  },
+  {
+    title: 'Smart Scholar - Agentic AI System',
+    description:
+      'Smart Scholar is an agentic AI system designed to answer complex academic and research-oriented queries by coordinating multi-step reasoning workflows. It leverages large language models with tool-based decision making to plan, search, analyze, and generate accurate responses. The system emphasizes reliability, latency optimization, and real-world usability.',
+    image: '/smart_scholar.jpg',
+    tags: ['Python', 'LLMs', 'Agentic AI', 'OpenAI Agents SDK', 'REST APIs'],
+    link: 'https://github.com/a-thul2/Smart-Scholar',
+  },
+  {
+    title: 'Prism - Chat App',
+    description:
+      'A modern real-time chat application built using the MERN stack, featuring live messaging, authentication, and a clean UI. Key features include real-time messaging, online user presence, reliable error handling, and efficient media storage.',
+    image: '/chat_app.jpg',
+    tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Socket.io', 'Zustand', 'Tailwind CSS', 'DaisyUI', 'JWT'],
+    link: 'https://github.com/a-thul2/Prism_Chat-App_MERN',
+  },
+  {
+    title: 'Quality Cafe - Restaurant Website',
+    description:
+      'A Full-Stack Restaurant Website built using MERN Stack. It includes a hero landing section, a detailed menu showcase, and a dedicated team and about page. Users can make online table reservations. The interface is modern, mobile-friendly, and fully responsive, with smooth scrolling for seamless navigation.',
+    image: '/cafe.jpg',
+    tags: ['React.js', 'Express', 'MongoDB', 'Axios'],
+    link: 'https://github.com/a-thul2/Restaurant_Webpage',
+  },
+];
+
 
   return (
     <section id="projects" className="py-24 px-6 bg-[#0d1224]">
@@ -124,9 +125,20 @@ const ProjectsSection = () => {
             </div>
           ))}
         </div>
-        <p className="text-center text-white text-2xl mt-8 font-bold">
-          ✨ And much more... All my projects can be viewed on my GitHub profile!
-        </p>
+     <p className="text-center text-white text-2xl mt-8 font-bold">
+  ✨ And much more... All my projects can be viewed on my{' '}
+  <a
+    href="https://github.com/a-thul2"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-400 underline hover:text-blue-300 transition-colors"
+  >
+    GitHub profile
+  </a>
+  !
+</p>
+
+
       </div>
     </section>
   );
